@@ -1,12 +1,12 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.13",
   "importer": "gltf",
   "imported": true,
   "uuid": "86d32b86-35f0-4558-91d2-1375de79a3d9",
   "files": [],
   "subMetas": {
     "72704": {
-      "ver": "1.1.0",
+      "ver": "1.1.1",
       "importer": "gltf-mesh",
       "name": "cocosfinish_02.mesh",
       "id": "72704",
@@ -19,11 +19,12 @@
       ],
       "subMetas": {},
       "userData": {
-        "gltfIndex": 0
+        "gltfIndex": 0,
+        "triangleCount": 304
       }
     },
     "28c31": {
-      "ver": "1.0.12",
+      "ver": "1.0.14",
       "importer": "gltf-scene",
       "name": "cocos_mesh_helmet.prefab",
       "id": "28c31",
@@ -43,7 +44,6 @@
     "normals": 2,
     "tangents": 2,
     "dumpMaterials": false,
-    "redirect": "86d32b86-35f0-4558-91d2-1375de79a3d9@28c31",
     "assetFinder": {
       "meshes": [
         "86d32b86-35f0-4558-91d2-1375de79a3d9@72704"
@@ -55,6 +55,24 @@
       "textures": [],
       "materials": []
     },
-    "imageMetas": []
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.13",
   "importer": "gltf",
   "imported": true,
   "uuid": "4e3b158c-9714-40e4-ac2c-beba4f040788",
@@ -23,7 +23,7 @@
       }
     },
     "41e97": {
-      "ver": "1.0.12",
+      "ver": "1.0.14",
       "importer": "gltf-scene",
       "name": "cocos_skel.prefab",
       "id": "41e97",
@@ -43,7 +43,6 @@
     "normals": 2,
     "tangents": 2,
     "dumpMaterials": false,
-    "redirect": "4e3b158c-9714-40e4-ac2c-beba4f040788@41e97",
     "assetFinder": {
       "skeletons": [
         "4e3b158c-9714-40e4-ac2c-beba4f040788@a9630"
@@ -55,6 +54,24 @@
       "textures": [],
       "materials": []
     },
-    "imageMetas": []
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
   }
 }

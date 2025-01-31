@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.13",
   "importer": "gltf",
   "imported": true,
   "uuid": "66236ce7-ce7d-48fa-a810-c1c4b55cbb1b",
@@ -8,7 +8,7 @@
   ],
   "subMetas": {
     "ab65f": {
-      "ver": "1.0.16",
+      "ver": "1.0.17",
       "importer": "gltf-animation",
       "name": "cocos_anim_idle.animation",
       "id": "ab65f",
@@ -32,7 +32,7 @@
       }
     },
     "0ea50": {
-      "ver": "1.0.12",
+      "ver": "1.0.14",
       "importer": "gltf-scene",
       "name": "cocos_anim_idle.prefab",
       "id": "0ea50",
@@ -62,12 +62,12 @@
             "name": "cocos_anim_idle",
             "from": 0,
             "to": 3.000000238418579,
-            "wrapMode": 2
+            "wrapMode": 2,
+            "previousId": "ab65f"
           }
         ]
       }
     ],
-    "redirect": "66236ce7-ce7d-48fa-a810-c1c4b55cbb1b@0ea50",
     "assetFinder": {
       "scenes": [
         "66236ce7-ce7d-48fa-a810-c1c4b55cbb1b@0ea50"
@@ -77,6 +77,24 @@
       "textures": [],
       "materials": []
     },
-    "imageMetas": []
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
   }
 }

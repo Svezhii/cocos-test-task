@@ -1,0 +1,60 @@
+{
+  "ver": "2.3.4",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "4e3b158c-9714-40e4-ac2c-beba4f040788",
+  "files": [],
+  "subMetas": {
+    "a9630": {
+      "ver": "1.0.1",
+      "importer": "gltf-skeleton",
+      "name": "cocos_skel.skeleton",
+      "id": "a9630",
+      "displayName": "",
+      "uuid": "4e3b158c-9714-40e4-ac2c-beba4f040788@a9630",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 52
+      }
+    },
+    "41e97": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "name": "cocos_skel.prefab",
+      "id": "41e97",
+      "displayName": "",
+      "uuid": "4e3b158c-9714-40e4-ac2c-beba4f040788@41e97",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "normals": 2,
+    "tangents": 2,
+    "dumpMaterials": false,
+    "redirect": "4e3b158c-9714-40e4-ac2c-beba4f040788@41e97",
+    "assetFinder": {
+      "skeletons": [
+        "4e3b158c-9714-40e4-ac2c-beba4f040788@a9630"
+      ],
+      "scenes": [
+        "4e3b158c-9714-40e4-ac2c-beba4f040788@41e97"
+      ],
+      "meshes": [],
+      "textures": [],
+      "materials": []
+    },
+    "imageMetas": []
+  }
+}

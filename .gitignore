@@ -1,0 +1,17 @@
+# Cocos Creator cache
+library/
+temp/
+local/
+build/
+settings/
+
+# Node.js
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/

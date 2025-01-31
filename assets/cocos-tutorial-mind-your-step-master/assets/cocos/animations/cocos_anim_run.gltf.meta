@@ -1,0 +1,81 @@
+{
+  "ver": "2.3.4",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d21ee57d-2e8b-4c82-9b36-c6436a7c85b4",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "b6423": {
+      "ver": "1.0.16",
+      "importer": "gltf-animation",
+      "name": "cocos_anim_run.animation",
+      "id": "b6423",
+      "displayName": "",
+      "uuid": "d21ee57d-2e8b-4c82-9b36-c6436a7c85b4@b6423",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8000000715255737
+        },
+        "events": [],
+        "wrapMode": 2
+      }
+    },
+    "6ebd2": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "name": "cocos_anim_run.prefab",
+      "id": "6ebd2",
+      "displayName": "",
+      "uuid": "d21ee57d-2e8b-4c82-9b36-c6436a7c85b4@6ebd2",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "normals": 2,
+    "tangents": 2,
+    "dumpMaterials": false,
+    "animationImportSettings": [
+      {
+        "name": "cocos_anim_run",
+        "duration": 0.8000000715255737,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "cocos_anim_run",
+            "from": 0,
+            "to": 0.8000000715255737,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "d21ee57d-2e8b-4c82-9b36-c6436a7c85b4@6ebd2",
+    "assetFinder": {
+      "scenes": [
+        "d21ee57d-2e8b-4c82-9b36-c6436a7c85b4@6ebd2"
+      ],
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": []
+    },
+    "imageMetas": []
+  }
+}
